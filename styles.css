@@ -24,6 +24,7 @@ body {
     padding: 0 50px;
 }
 
+/* NavHead Color */
 #navHead.pomodoro {
     background-color:rgb(186, 73, 73);
 }
@@ -47,8 +48,8 @@ body {
     height: 100%;
     width: auto;
 }
-/* NavBar */
 
+/* NavBar */
 #navbar {
     position: relative;
     display: inline-block;
@@ -58,6 +59,7 @@ body {
     font-weight: 400;
 
 }
+
 #navbar li a{
     width: 100%;
     height: 100%;
@@ -67,9 +69,11 @@ body {
     color: #fff;
     transition: all .2s;
 }
+
 #navbar li a:hover {
     font-weight: bolder;
 }
+
 #navHead #navbar li{
     width: auto;
     position: relative;
@@ -87,6 +91,7 @@ body {
     gap: 20px;
     margin-right: 2%;
 }
+
 #navHead #logBut{
     color: rgb(60, 60, 60);
     font-size: 16px;
@@ -101,6 +106,7 @@ body {
     transition: all .2s;
     cursor: pointer;
 }
+
 #navHead #logBut:hover {
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
     scale: 1.03;
@@ -123,6 +129,7 @@ body {
     width: auto;
     cursor: pointer;
 }
+
 #signUpBut:hover {
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
     scale: 1.03;
@@ -136,7 +143,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-
+/* Container Color */
 .container.pomodoro {
     background-color:rgb(186, 73, 73);
 }
@@ -171,6 +178,7 @@ button {
     cursor: pointer;
 }
 
+/* Button Color */
 .pomodoro-active  {
     color:rgb(186, 73, 73);
 }

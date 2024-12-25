@@ -3,11 +3,11 @@ let isRunning = false;
 let minutes = 25;
 let seconds = 0;
 let isStarted = false;
-// let musicPlaying = false;
 
 const timerDisplay = document.getElementById('timer');
 const startButton = document.getElementById('start-pause');
 const resetButton = document.getElementById('reset');
+
 function updateDisplay() {
     timerDisplay.textContent = 
         `${minutes < 10 ? '0' : ''}${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
@@ -23,15 +23,6 @@ function startTimer() {
                 if (minutes === 0) 
                 {
                     clearInterval(timer);
-                    // alert('Time is up!');
-                    // isRunning = false;
-                    // var music = document.getElementById('music');
-                    //     music.play();
-                    var music = document.getElementById('music');
-                    if (music) {
-                        music.play();
-                    }
-                    // window.open("https://www.google.com", "Cửa sổ mới", "width=800,height=600");
                     isRunning = false;
                 } 
                 else 
@@ -141,23 +132,5 @@ document.getElementById('pomodoro').addEventListener('click', function() {
     seconds = 0;
     updateDisplay();
  });
-
-
-
-// Music
-//  document.getElementById('play-pause').addEventListener('click', function() {
-//     var music = document.getElementById('music');
-//     if (music.paused) {
-//       music.play();
-//     } else {
-//       music.pause();
-//     }
-//   });
-  
-//   document.getElementById('stop').addEventListener('click', function() {
-//     var music = document.getElementById('music');
-//     music.pause();
-//     music.currentTime = 0;
-//   });
 
 updateDisplay();
