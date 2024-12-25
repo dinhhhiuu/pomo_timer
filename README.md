@@ -38,4 +38,5 @@ TomoTime là một công cụ quản lý thời gian ngắn hạn, giúp cá nh�
 - Đây là demo dự án pomotime. Dự án ban đầu đã thiết lập giao diện và chức năng bấm giờ.  
 - Dự án cá nhân nhỏ đầu tiên của tôi tại TechWiz.
 
+![Demo](demo.gif)
 
